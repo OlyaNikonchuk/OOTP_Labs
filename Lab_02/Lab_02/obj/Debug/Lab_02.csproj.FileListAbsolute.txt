@@ -5,3 +5,10 @@ C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\Лабы\Lab_02\Lab
 C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\Лабы\Lab_02\Lab_02\bin\Debug\Lab_02.pdb
 C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\Лабы\Lab_02\Lab_02\obj\Debug\Lab_02.exe
 C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\Лабы\Lab_02\Lab_02\obj\Debug\Lab_02.pdb
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\bin\Debug\Lab_02.exe.config
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\bin\Debug\Lab_02.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\bin\Debug\Lab_02.pdb
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\obj\Debug\Lab_02.csprojAssemblyReference.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\obj\Debug\Lab_02.csproj.CoreCompileInputs.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\obj\Debug\Lab_02.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_02\Lab_02\obj\Debug\Lab_02.pdb

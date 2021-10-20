@@ -9,6 +9,7 @@ namespace Lab_2
         static void Main(string[] args)
         {
             //Типы 
+            Console.WriteLine("----------Типы--------");
             //а. Примитивные типы и ввод/вывод 
             bool b = true;
             byte bb = 255;
@@ -65,6 +66,7 @@ namespace Lab_2
             //------------------------------------------------
             //Строки
             //а. 
+            Console.WriteLine("----------Строки---------");
             string str1 = "Hello";
             string str2 = "World";
             int res = String.Compare(str1, str2);
@@ -74,13 +76,13 @@ namespace Lab_2
                 Console.WriteLine($"Строка {str1} != {str2}");
 
             //b. 
-            String st1 = "Раз";
+            String st1 = "Раз ";
             String st2 = " Два";
-            String st3;
+            //String st3;
             String st4 = "Три Четыре";
 
             Console.WriteLine(st1 + st2); //Сцепление
-            st3 = st2;                    //Копирование
+            String st3 = st2;                    //Копирование
             Console.WriteLine(st2.Substring(1, 2)); //Подстрока
             string[] words = st4.Split(new char[] { ' ' });     //Разделение на слова 
             foreach (string s in words) Console.WriteLine(s);
@@ -111,6 +113,7 @@ namespace Lab_2
             //---------------------------------------------
             //Массивы
             //а.
+            Console.WriteLine("----------Массивы---------");
             int[,] arr = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
             for (int ic = 0; ic < 3; ic++)
             {
@@ -168,12 +171,19 @@ namespace Lab_2
             //--------------------------------
             //Кортежи   
             //а.
+            Console.WriteLine("----------Кортежи---------");
             (int, string, char, string, ulong) crt = (19, "Оля", 'Ж', "Никончук", 171);
             Console.WriteLine("Возраст:   " + crt.Item1);
             Console.WriteLine("Имя:       " + crt.Item2);
             Console.WriteLine("Пол:       " + crt.Item3);
             Console.WriteLine("Фамилия:   " + crt.Item4);
             Console.WriteLine("Рост:      " + crt.Item5);
+
+            var person = (last: "Никончук", first: "Оля");
+
+            Console.WriteLine("Фамилия: " + person.first);
+            Console.WriteLine("Имя: " +person.last);
+
 
             //d.
             Console.WriteLine(crt.Item4 + " " + crt.Item2);
@@ -188,6 +198,7 @@ namespace Lab_2
 
             //---------------------------------
             //5
+            Console.WriteLine("----------Локальная функция---------");
             void function(int[] arrs, string s)
             {
                 int max, min, sum;
@@ -202,6 +213,8 @@ namespace Lab_2
             string strF = "World";
             int[] arrF = { 1, 2, 3, 4, 5 };
             function(arrF, strF);
+
+            Console.WriteLine("----------Работа с checked/unchecked---------");
 
             void f1()
             {

@@ -50,6 +50,11 @@ namespace Lab_03
                 if (el.City > hightPoint)
 
                     el.PrintInfo();
+                else
+                {
+                    Console.WriteLine("Таких пользователей нет");
+                    break;
+                }
 
             }
         }

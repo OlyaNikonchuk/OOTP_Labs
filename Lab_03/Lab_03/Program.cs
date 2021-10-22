@@ -25,9 +25,9 @@ namespace Lab_03
             Console.WriteLine("________________________________");
 
             Phone[] arr = new Phone[3];
-            arr[0] = new Phone("Петров", "Петр", "Петрович", "Беларусская,21", 5499, 98765);
-            arr[1] = new Phone("Иванов", "Иван", "Иванович", "Беларусская,21", 7777, 36541);
-            arr[2] = new Phone("Романов", "Петр", "Алексеевич", "Беларусская,21", 1234, 1234567);
+            arr[0] = new Phone("Петров", "Петр", "Петрович", "Беларусская,21", 5499, 98765, 30, 15);
+            arr[1] = new Phone("Иванов", "Иван", "Иванович", "Беларусская,21", 7777, 36541, 59, 0);
+            arr[2] = new Phone("Романов", "Петр", "Алексеевич", "Беларусская,21", 1234, 1234567, 240, 120);
 
             List<Phone> phone = new List<Phone>();
 
@@ -39,15 +39,19 @@ namespace Lab_03
                 el.PrintInfo();
 
             }
+            Console.WriteLine("________________________________");
 
+            int hightPoint;
+            Console.WriteLine("Введите границу ");
+            hightPoint = Convert.ToInt32(Console.ReadLine());
 
+            foreach (Phone el in arr)
+            {
+                if (el.City > hightPoint)
 
+                    el.PrintInfo();
 
-
-
-
-
-
+            }
         }
     }
 }

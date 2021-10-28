@@ -12,11 +12,12 @@ namespace Lab_04
         private readonly Data data;
         private readonly Owner owner;
         public HashSet<String> collection;
-        
+        public int Size;
 
         public Set(string ownerName, int ownerId)
         {
             this.owner = new Owner(ownerName, ownerId);
+            this.collection = new HashSet<string>();
             this.data = new Data();
         }
 
@@ -46,22 +47,86 @@ namespace Lab_04
             }
         }
 
-        public class Owner
+        public int GetSize()
         {
-            private readonly string name;
-            private readonly int id;
-
-
-            public Owner(string name, int id)
+            int size = 0;
+            foreach (string item in collection)
             {
-                this.name = name;
-                this.id = id;
+                size++;
             }
+            return size;
+        }
 
-            public void GetInfo()
+        public void AddItem(string item)
+        {
+            collection.Add(item);
+        }
+
+        public class Date
+        {
+            public readonly DateTime time;
+
+            public Date()
             {
-                Console.WriteLine($"Имя: {name}, ID: {id}");
+                time = DateTime.Now;
             }
         }
+
+        public string GetItemByIndex(int index)
+        {
+            if (index > this.GetSize() - 1)
+                throw new Exception("GetItemByIndex: OutOfRange");
+
+            int size = -1;
+            foreach (string item in collection)
+            {
+                size++;
+                if (size == index)
+                    return item;
+            }
+            return "";
+        }
+
+
+        #region Overload
+
+        public static Set operator *(Set set, Set set2)
+        {
+            set.collection.IntersectWith(set2.collection);
+            return set;
+        }
+
+        public static Set operator >(Set set, Set set2)
+        {
+            Set result = set;
+            foreach (string item in set.collection)
+            {
+                if (!set2.collection.Contains(item))
+                {
+                    set.AddItem(item);
+                }
+                result = set;
+            }
+            foreach (string item in set2.collection)
+            {
+                if (!set.collection.Contains(item))
+                {
+                    set2.AddItem(item);
+                }
+                result = set2;
+
+            }
+            return result;
+        }
+
+        public static Set operator <(Set set, Set set2)
+        {
+            if (set.collection.IsSubsetOf(set2.collection))
+                return set;
+            else
+                return set2;
+        }
+
+        #endregion
     }
 }

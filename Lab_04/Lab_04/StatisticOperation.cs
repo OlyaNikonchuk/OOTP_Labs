@@ -64,10 +64,6 @@ namespace Lab_04
                 res.Add(buf);
                 res.Add("Удалено");
             }
-            //foreach (string item in res)
-            //{
-            //    Console.WriteLine(item);
-            //}
             set.collection = res;
         }
 

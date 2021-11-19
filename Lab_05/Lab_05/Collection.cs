@@ -6,46 +6,59 @@ using System.Threading.Tasks;
 
 namespace Lab_05
 {
-    partial class CollectionType<T> : IGereric<T> where T : class
+    class Printer
     {
-        private int size;
-        public List<T> list;
-
-        public CollectionType()
+        public static void IAmPrinting(TVProgramm obj)
         {
-            list = new List<T>();
+            Console.WriteLine("Тип объекта " + obj.GetType());
+            Console.WriteLine(obj.ToString());
+
+        }
+    }
+    class Producer : IPeople
+    {
+        public string Name { get; set; }
+        public Producer(string name)
+        {
+            Name = name;
+        }
+    }
+    abstract class TVProgramm
+    {
+        public string NameOfProgramm;
+        public DateTime Date;
+        public int Duration;//
+        public int ShowsPerDay;
+        public static int Count = 0;
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj.GetType() != this.GetType()) return false;
+
+            TVProgramm programm = (TVProgramm)obj;
+            return (this.Date == programm.Date && this.NameOfProgramm == programm.NameOfProgramm && this.Duration == programm.Duration && this.ShowsPerDay == programm.ShowsPerDay);
         }
 
-        public void Add(T item)
+        public override string ToString()
         {
-            list.Add(item);
-            size++;
+            if (String.IsNullOrEmpty(NameOfProgramm))
+                return base.ToString();
+            return "Название программы; День проведения программы; Продолжительность; Количество повторений в день  " + NameOfProgramm + Date + Duration + ShowsPerDay;
         }
 
-        public void Delete(int index)
+        public override int GetHashCode()
         {
-            try
-            {
-                list.RemoveAt(index);
-                size--;
-            }
-            catch
-            {
-                Console.WriteLine($"Выход за пределы, используйте числа в диапазоне (0-{size})");
-            }
+
+            return Count;
+
         }
 
-        public void Show()
+        public TVProgramm(string name, int showsPerWeek)
         {
-            foreach (T item in list)
-            {
-                Console.WriteLine(item);
-            }
-        }
-
-        public int GetSize()
-        {
-            return size;
+            NameOfProgramm = name;
+            ShowsPerDay = (showsPerWeek > 0) ? showsPerWeek : 0;
+            ++Count;
         }
     }
 }

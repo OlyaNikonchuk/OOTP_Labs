@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes.cs" />
+    <Compile Include="Ads.cs" />
+    <Compile Include="ArtisticFilm.cs" />
+    <Compile Include="Cartoons.cs" />
     <Compile Include="Collection.cs" />
-    <Compile Include="FileSrream.cs" />
+    <Compile Include="Film.cs" />
     <Compile Include="Interface.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="News.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

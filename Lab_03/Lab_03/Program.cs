@@ -29,8 +29,6 @@ namespace Lab_03
             arr[1] = new Phone("Иванов", "Иван", "Иванович", "Беларусская,21", 7777, 36541, 59, 0);
             arr[2] = new Phone("Романов", "Петр", "Алексеевич", "Беларусская,21", 1234, 1234567, 240, 120);
 
-            List<Phone> phone = new List<Phone>();
-
 
             foreach (Phone el in arr)
             {

@@ -6,21 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lab_05
 {
-     public interface IGereric<T>
+    interface IMovie
     {
-        void Add(T item);
-        void Delete(int index);
-        void Show();
+        void Movie();
     }
-
-    public interface IProduser
+    
+    interface IPeople
     {
-        void Filmed();
-    }
-
-    public interface IBreak : IProduser
-    {
-        void Product();
-        void ToTV();
+        string Name { get; set; }
     }
 }

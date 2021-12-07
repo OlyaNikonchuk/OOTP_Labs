@@ -1,0 +1,7 @@
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\bin\Debug\KR.exe.config
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\bin\Debug\KR.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\bin\Debug\KR.pdb
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\obj\Debug\KR.csprojAssemblyReference.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\obj\Debug\KR.csproj.CoreCompileInputs.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\obj\Debug\KR.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\KR\KR\obj\Debug\KR.pdb

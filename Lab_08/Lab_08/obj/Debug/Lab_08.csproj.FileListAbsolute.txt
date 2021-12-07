@@ -1,0 +1,7 @@
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\bin\Debug\Lab_08.exe.config
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\bin\Debug\Lab_08.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\bin\Debug\Lab_08.pdb
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\obj\Debug\Lab_08.csprojAssemblyReference.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\obj\Debug\Lab_08.csproj.CoreCompileInputs.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\obj\Debug\Lab_08.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\obj\Debug\Lab_08.pdb

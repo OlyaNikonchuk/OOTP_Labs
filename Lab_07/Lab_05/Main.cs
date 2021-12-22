@@ -32,10 +32,10 @@ namespace Lab_05
                 //////////////////////
                 ///
             }
-            catch (Exceptions ex)
-            {
-                fileLogger.WriteLog(ex);
-            }
+            //catch (Exceptions ex)
+            //{
+            //    fileLogger.WriteLog(ex);
+            //}
             //catch (NameExceptions ex)
             //{
             //    Console.WriteLine("Ошибка : " + ex.Message);

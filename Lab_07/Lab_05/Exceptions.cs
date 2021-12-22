@@ -47,7 +47,7 @@ namespace Lab_05
         public int Count { get; set; }
 
         public CountExceptions(string message, int errorAds)
-            : base(message, "Error code 2: Uncorrected Ads\n")
+            : base(message, "Error code 3: Uncorrected Ads\n")
         {
             Count = errorAds;
         }

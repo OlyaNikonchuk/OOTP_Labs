@@ -104,7 +104,7 @@ namespace Lab_08
 
         public void SaveData()
         {
-            string path = @"..\save.txt";
+            string path = @"C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_08\Lab_08\save.txt";
             FileStream file = new FileStream(path, FileMode.OpenOrCreate);
             StreamWriter writer = new StreamWriter(file);
 

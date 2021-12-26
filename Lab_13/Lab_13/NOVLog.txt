@@ -1,0 +1,35 @@
+NOVDiskinfo: C:\
+Cвободное место на диске: 73 ГБ: 26.12.2021 6:16:54
+NOVDiskinfo: C:\
+Тип файловой системы и тип диска C: Fixed, NTFS: 26.12.2021 6:16:54
+NOVDiskInfo: C:\
+Имя: C:\ 
+ Объем: 254760263680 
+ Доступный объем: 78775619584 
+ Метка тома: : 26.12.2021 6:16:54
+NOVDiskInfo: D:\
+Имя: D:\ 
+ Объем: 429496725504 
+ Доступный объем: 300363042816 
+ Метка тома: Work: 26.12.2021 6:16:54
+NOVDiskInfo: E:\
+Имя: E:\ 
+ Объем: 570704261120 
+ Доступный объем: 384782553088 
+ Метка тома: Hobby: 26.12.2021 6:16:54
+NOVDirInfo: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13
+Кол-во файлов в каталоге C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13: 10: 26.12.2021 6:16:54
+NOVDirInfo: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13
+Время создания каталога C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13: 26.12.2021 5:59:07: 26.12.2021 6:16:54
+NOVDirInfo: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13
+Родительский каталог каталога C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13: 26.12.2021 6:16:54
+NOVDirInfo: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13
+Количество подкаталогов в каталоге C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13: 3: 26.12.2021 6:16:54
+NOVFileInfo: Program.cs
+Полный путь к файлу Program.cs: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\Program.cs: 26.12.2021 6:16:54
+NOVFileInfo: Program.cs
+Имя файла: Program.cs 
+ Расширение файла: .cs 
+ Размер файла: 1381: 26.12.2021 6:16:54
+NOVFileInfo: C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\Program.cs
+Время создания файла Program.cs: 26.12.2021 5:59:08: 26.12.2021 6:16:54

@@ -1,0 +1,7 @@
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\obj\Debug\Lab_13.csprojAssemblyReference.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\obj\Debug\Lab_13.csproj.CoreCompileInputs.cache
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\bin\Debug\Lab_13.exe.config
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\bin\Debug\Lab_13.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\bin\Debug\Lab_13.pdb
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\obj\Debug\Lab_13.exe
+C:\Users\Оля\Desktop\2 курс\1 семестр\ООТП\OOTP_Labs\Lab_13\Lab_13\obj\Debug\Lab_13.pdb
